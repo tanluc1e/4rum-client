@@ -146,7 +146,7 @@
         .sellers{
             flex-direction: column;
             .card{
-                flex-direction: column;
+                flex-direction: row;
             }
         }
     }
