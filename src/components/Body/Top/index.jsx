@@ -5,7 +5,7 @@ import './style.css'
 import { BiSearchAlt } from "react-icons/bi";
 import { TbMessageCircle } from "react-icons/tb";
 import { MdOutlineNotificationsNone } from "react-icons/md";
-import { BsArrowRightShort } from "react-icons/bs";
+import { BsArrowRightShort, BsQuestionCircle } from "react-icons/bs";
 
 import video from "../../../assets/video.mp4"
 import img from "../../../assets/1.png"
@@ -69,6 +69,18 @@ export default function Top() {
 
                         <div className="imgDiv">
                             <img src={img} alt="" />
+                        </div>
+                    </div>
+
+                    <div className="sideBarCard">
+                        <BsQuestionCircle className='icon' />
+                        <div className="cardContent">
+                            <div className="circle1"></div>
+                            <div className="circle2"></div>
+
+                            <h3>Help Center</h3>
+                            <p>Having trouble in Plant, please contact us from for more questions.</p>
+                            <button className='btn'>Go to help center</button>
                         </div>
                     </div>
                 </div>
